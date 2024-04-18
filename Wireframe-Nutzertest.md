@@ -1,3 +1,37 @@
+Hypothesen
+
+Wir wollen den Nutzertest in 15min machen, starten aber eine Stoppuhr, weil es wahrscheinlich eher länger dauern wird
+
+Um die Situation im Hämatologie-Praktikum zu simulieren genügt folgendes:
+Hämatologie-Protokoll + Stift = ausgedrucktes Hämatologie-Protokoll + Stift
+App auf Smartphone = 4 ausgedruckten Wireframes in Smartphone-Bildschirmgrösse
+Mikroskop + Blutausstrich = Bilder von Leukozyten am Laptop
+10 Zellen zu zählen genügt, es braucht nicht 100
+
+
+Das Design der Wireframes sind ziemlich ästhetisch und schlicht
+Wir haben wenig Knöpfe
+Alle Knöpfe sind selbsterklärend
+Knöpfe sind gut sichtbar
+Nutzer verstehen, dass es einen Knopf gibt, um das 2. 100 zu zählen
+Nutzer verstehen, dass die Ergebnistabelle 1x1 zum Protokoll vom Praktikum passt
+
+Nutzer verstehen und schätzen, dass es 9 Knöpfe gibt und man 3 neue Knöpfe hinzufügen kann
+dass es eine Undo-Taste gibt
+dass nach 200 gezählten Zellen, der Durchschnitt automatisch berechnet wird
+
+Nutzer wissen überhaupt nicht, wie lange sie pro Blutbild brauchen
+Nutzer schreiben sich nicht regelmässig auf wie lange sie pro BB brauchen, haben also keine Daten
+Nutzer würden Daten zu ihrer 'Zählgeschwindigkeit' schätzen
+
+Nutzer würden eine Vibration beim Antippen einer Taste einem Piepston bevorzugen
+Ein Piepston nach 100 ausgezählten Zellen ist ein klares Zeichen, dass man fertig ist
+
+Der grösste Nutzen der App ist die Zeiteinsparung
+Die ZellZähler App ist besser als die Verwendung von Papier und Stift zum Zählen
+Die ZellZähler App ist besser als die CellCounter App
+
+
 Was war gut?
 
 Die App ist effektiver als von Hand zu zählen und sie kann bereits den Durchschnitt berechnen.
