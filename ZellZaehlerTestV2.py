@@ -5,6 +5,23 @@ button_names = [
     "Pro", "Mye", "Meta", "Stab", "Seg", "Eos",
     "Baso", "Mono", "Ly", "neu1", "neu2", "neu3"
 ]
+# Anzahl der Buttons pro Zeile
+buttons_per_row = 3
+# Anzahl der Buttons pro Spalte
+buttons_per_col = 4
+# Berechnung der Anzahl der Zeilen basierend auf der Anzahl der Buttons und der Buttons pro Spalte
+num_rows = buttons_per_col
+# Erstellen der Button-Reihen
+for row_index in range(num_rows):
+    # Erstellen einer Zeile für die Buttons
+    row = st.columns(buttons_per_row)
+    for col_index in range(buttons_per_row):
+        # Berechnung des Index des aktuellen Buttons in der Liste button_names
+        button_index = row_index * buttons_per_row + col_index
+        if button_index < len(button_names):
+            # Anzeigen des Buttons
+            with row[col_index]:
+                st.button(button_names[button_index])
 
 # Initialize session states for button counts, edit mode, name edit mode, and custom names
 for name in button_names:
