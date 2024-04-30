@@ -33,7 +33,7 @@ total_count = sum(st.session_state[f'count_{name}'] for name in button_names)
 st.write(f"{total_count}/100")
 
 if total_count == 100:
-    st.success("100 Zellen gezählt!")
+    st.success("🎂 Top! 100 Zellen gezählt!")
 
 cols_per_row = 3
 rows = [st.columns(cols_per_row) for _ in range(len(button_names) // cols_per_row)]
@@ -65,12 +65,12 @@ for index, name in enumerate(button_names):
 if button_pressed is not None:
     increment_button_count(button_pressed)
     if total_count + 1 == 100:  # Check if reaching 100 after button press
-        st.experimental_rerun()
+        st.rerun()
 
 if button_pressed is not None:   
     if total_count == 100:
-        st.error("Das Zählziel von 100 wurde bereits erreichte.")
-        st.experimental_rerun()
+        st.error("Das Zählziel von 100 wurde bereits erreicht.")
+        st.rerun()
 
 
 
@@ -80,4 +80,4 @@ if st.button('Reset All Counts'):
 
 # Handle button press after all buttons are displayed
 if button_pressed is not None:
-    st.experimental_rerun()  # Optionally force a rerun to update the UI immediately
+    st.rerun()  # Optionally force a rerun to update the UI immediately
