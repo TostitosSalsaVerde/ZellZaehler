@@ -1,31 +1,31 @@
-# gibt Priorität der Funktion an
+Priorität der Funktionen
 
 Tastatur
-•	3 Spalten + 4 Reihen/Zeilen #1
-•	Joker Knöpfe benennen #12
+#1 3 Spalten + 4 Reihen/Zeilen
+#12 Joker Knöpfe benennen
  
 Resultate
-•	Wie kommt man zu den Resultaten: scrollen oder sidebar  #2
-•	Reihenfolge passt zum Protokoll des Praktikums  #3
-•	Tabelle A 1.100 #4
-•	Tabelle B 2.100 #5
-•	Tabelle C: 1.100, 2. 100 und Durchschnitt werden aufgelistet #6
+#2 Wie kommt man zu den Resultaten: scrollen oder sidebar
+#3 Reihenfolge passt zum Protokoll des Praktikums
+#4 Tabelle A 1.100
+#5 Tabelle B 2.100
+#6 Tabelle C: 1.100, 2. 100 und Durchschnitt werden aufgelistet
  
 Aktuelle Zählung verwerfen
-•	Namensänderung des Buttons #7
-•	Fehler: Reset all counts: man muss 2x klicken #8
+#7 Namensänderung des Buttons
+#8 Fehler: Reset all counts: man muss 2x klicken
 
 Korrekturen
-•	Name für Undo-Knopf #9
-•	Ort Undo-Knopf, beim Zähler? #10
+#9 Name für Undo-Knopf
+#10 Ort Undo-Knopf, beim Zähler?
  
 Layout
-•	Tastatur gross + gut sichtbar #11
-•	Farbe und Schrift #15
+#11 Tastatur gross + gut sichtbar
+#15 Farbe und Schrift #15
  
 Speichern = Resultate übernehmen
-•	Button namens 'Speichern' #13
-•	Ort des Buttons #14
+#13 Button namens 'Speichern'
+#14 Ort des Buttons
 
 
 Funktionen, die wir schon haben
