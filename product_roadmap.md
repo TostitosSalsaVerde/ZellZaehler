@@ -2,7 +2,7 @@ Priorität der Funktionen
 
 Tastatur
 
-#1 3 Spalten + 4 Reihen/Zeilen
+#1 drei Spalten + vier Reihen/Zeilen
 
 #12 Joker Knöpfe benennen
  
