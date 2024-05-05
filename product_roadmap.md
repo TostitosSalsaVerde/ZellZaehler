@@ -1,10 +1,12 @@
 Priorität der Funktionen
 
 Tastatur
+
 #1 3 Spalten + 4 Reihen/Zeilen
 #12 Joker Knöpfe benennen
  
 Resultate
+
 #2 Wie kommt man zu den Resultaten: scrollen oder sidebar
 #3 Reihenfolge passt zum Protokoll des Praktikums
 #4 Tabelle A 1.100
