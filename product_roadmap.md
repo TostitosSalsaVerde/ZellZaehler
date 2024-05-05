@@ -5,6 +5,7 @@ Tastatur
 #1 drei Spalten + vier Reihen/Zeilen
 
 #12 Joker Knöpfe benennen
+
  
 Resultate
 
@@ -17,6 +18,7 @@ Resultate
 #5 Tabelle B 2.100
 
 #6 Tabelle C: 1.100, 2. 100 und Durchschnitt werden aufgelistet
+
  
 Aktuelle Zählung verwerfen
 
@@ -24,17 +26,20 @@ Aktuelle Zählung verwerfen
 
 #8 Fehler: Reset all counts: man muss 2x klicken
 
+
 Korrekturen
 
 #9 Name für Undo-Knopf
 
-#10 Ort Undo-Knopf, beim Zähler?
+#10 Ort Undo-Knopf, evtl. beim Zähler?
+
  
 Layout
 
 #11 Tastatur gross + gut sichtbar
 
 #15 Farbe und Schrift
+
  
 Speichern = Resultate übernehmen
 
