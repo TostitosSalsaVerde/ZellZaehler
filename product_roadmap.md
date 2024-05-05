@@ -3,30 +3,43 @@ Priorität der Funktionen
 Tastatur
 
 #1 3 Spalten + 4 Reihen/Zeilen
+
 #12 Joker Knöpfe benennen
  
 Resultate
 
 #2 Wie kommt man zu den Resultaten: scrollen oder sidebar
+
 #3 Reihenfolge passt zum Protokoll des Praktikums
+
 #4 Tabelle A 1.100
+
 #5 Tabelle B 2.100
+
 #6 Tabelle C: 1.100, 2. 100 und Durchschnitt werden aufgelistet
  
 Aktuelle Zählung verwerfen
+
 #7 Namensänderung des Buttons
+
 #8 Fehler: Reset all counts: man muss 2x klicken
 
 Korrekturen
+
 #9 Name für Undo-Knopf
+
 #10 Ort Undo-Knopf, beim Zähler?
  
 Layout
+
 #11 Tastatur gross + gut sichtbar
-#15 Farbe und Schrift #15
+
+#15 Farbe und Schrift
  
 Speichern = Resultate übernehmen
+
 #13 Button namens 'Speichern'
+
 #14 Ort des Buttons
 
 
