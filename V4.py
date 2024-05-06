@@ -22,6 +22,19 @@ secondary_background_color = "#bbb9b9"
 text_color = "#bb072b"
 font = "monospace"
 
+# Hilfsfunktion, um den Zustand zu speichern
+def save_state():
+    current_counts = {name: st.session_state[f'count_{name}'] for name in button_names}
+    if 'history' not in st.session_state:
+        st.session_state['history'] = []
+    st.session_state['history'].append(current_counts)
+
+# Funktion, um den letzten Schritt rückgängig zu machen
+def undo_last_step():
+    if st.session_state['history']:
+        last_state = st.session_state['history'].pop()
+        for name in button_names:
+            st.session_state[f'count_{name}'] = last_state[name]
 # Setzen des Themes
 set_theme(primary_color, background_color, secondary_background_color, text_color, font)
 
@@ -82,7 +95,9 @@ for row_index, row in enumerate(button_positions):
             button_label = f"{display_name}\n({st.session_state[f'count_{name}']})"
             if st.button(button_label, key=f'button_{name}'):
                 if not st.session_state['edit_mode'] and not st.session_state['name_edit_mode']:
-                    button_pressed = name
+                    save_state()  # Zustand speichern bevor geändert wird
+                    button_pressed = name  # Mark button as pressed
+
             if st.session_state['edit_mode']:
                 new_count = st.number_input("Zähler korrigieren", value=st.session_state[f'count_{name}'], key=f'edit_{name}')
                 st.session_state[f'count_{name}'] = new_count
@@ -102,7 +117,10 @@ if button_pressed is not None:
         st.error("Das Zählziel von 100 wurde bereits erreicht.")
         st.rerun()
 
-if st.button('Reset All Counts'):
+if st.button('Rückgängig'):
+    undo_last_step()
+
+if st.button('Zählung zurücksetzen'):
     for name in button_names:
         st.session_state[f'count_{name}'] = 0
 
