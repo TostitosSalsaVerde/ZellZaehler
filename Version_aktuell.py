@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+st.title("ZellZaehler")
 # Funktion zur Konfiguration des Themes
 def set_theme(primary_color, background_color, secondary_background_color, text_color, font):
     custom_css = f"""
